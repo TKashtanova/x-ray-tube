@@ -1,0 +1,19 @@
+/gps/source/intensity 1
+/gps/particle e-
+/gps/energy 143 keV
+/gps/pos/type Plane
+/gps/pos/shape Square
+/gps/pos/centre 0. 0. 40. mm
+/gps/pos/halfx 1.0 mm
+/gps/pos/halfy 1.0 mm
+/gps/direction 0 0 -1
+
+/process/em/setDirectionalSplitting true
+/process/em/setDirectionalSplittingTarget 0 -56 -10 mm 
+/process/em/setDirectionalSplittingRadius 36 mm
+/process/em/setSecBiasing eBrem anode 1000 143 keV
+/process/em/setSecBiasing Rayl world 1000 143 keV
+/process/em/setSecBiasing phot world 1000 143 keV
+/process/em/setSecBiasing compt world 1000 143 keV
+/process/em/setSecBiasing annihil world 1000 143 keV
+/run/beamOn 100000000
