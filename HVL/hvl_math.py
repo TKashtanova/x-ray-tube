@@ -35,7 +35,7 @@ df = df.iloc[r_st:,:]
 df.reset_index(inplace = True, drop = True)
 
 
-# NIST tables (excluded energy edges)
+# NIST tables (energy edges excluded)
 os.chdir(path_nist) 
 nist_cu = pd.read_csv("Copper.csv")
 nist_al = pd.read_csv("Aluminum.csv")
