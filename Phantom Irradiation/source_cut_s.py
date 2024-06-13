@@ -43,7 +43,7 @@ data.to_csv(data_name, index = False)
 print(len(data))
 
 '''
-# Visualization of the resuced source
+# Visualization of the reduced source
 import matplotlib.pyplot as plt
 plt.figure(figsize = (6, 6))
 plt.scatter(data["pos_z,mm"], data["pos_x,mm"], c = data["energy,keV"], cmap = "magma")
