@@ -1,8 +1,9 @@
 # RAD-44 X-ray Tube Modeling and Simulation
 
-The repository contains Geant4 models of RAD-44 x-ray tube and phantom irradiation, data pre-processing and pos-processing scripts, and the algorithm for analytical calculation of beam HVL values based on a given photon energy spectrum.
+The repository contains Geant4 models (Geant4-v11.1.1) of RAD-44 x-ray tube and phantom irradiation, data pre-processing and pos-processing scripts (Python 3.9, MATLAB R2022a), and the algorithm for analytical calculation of beam HVL values (Python 3.9) based on a given photon energy spectrum.
 
 The repository was created as a part of a qualifying project at Johns Hopkins University.
+
 
 06/2024
 
