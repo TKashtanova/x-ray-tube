@@ -1,4 +1,4 @@
-# RAD-44 X-ray Tube Modeling and Simulation for FLASH-SARRP
+# RAD-44 X-ray Tube Modeling and Simulation
 
 The repository contains Geant4 models of RAD-44 x-ray tube and phantom irradiation, the data pre-processing and pos-processing scripts, and the algorithm for analytical calculation of beam HVL values based on a given photon energy spectrum.
 
